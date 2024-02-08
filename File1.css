@@ -1,0 +1,94 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: sans-serif;
+font-size: 20px;
+}
+.navigation-bar{
+position: fixed;
+top: 0px;
+left: 0px;
+width: 100%;
+background: transparent;
+backdrop-filter: blur(20px);
+z-index: 5;
+}
+.mymenus{
+font-weight: bolder;
+color: black;
+}
+.mymenus:hover{
+text-decoration: underline 2px solid royalblue;
+}
+.logo{
+font-family: Arial Black;
+font-size: 50px;
+width: 100%;
+}
+.allsections{
+position: relative;
+top: 80px;
+width: 100%;
+}
+
+.section{
+width: 100%;
+height: 100vh;
+border: 5px solid darkcyan;
+}
+.section h1{
+text-align: center;
+margin-top: 250px;
+}
+.html{
+scroll-behavior: smooth;
+}
+.home-section{
+	padding-bottom: 200px;
+	border:none;
+	width:100%;
+	background-image: url("https://img.freepik.com/free-vector/hand-drawn-flat-design-devops-illustration_23-2149375793.jpg");
+	background-repeat:no-repeat ;
+	background-size: 40%;
+	background-position: 90% 2%;
+
+}
+.myinfo{
+	padding-bottom: 1000px;
+	height: 450px;
+	width: 50%;
+	margin: 10% 4%;
+
+}
+.info-home{
+	font-size: 30px;
+	font-family: Elephant;
+
+}
+.myname{
+	font-size: 50px;
+}
+.fsjd{
+	font-family: Elephant;
+	font-size: 30px;
+	color: violet;
+}
+.rsm{
+	height: 60px;
+	width: 120;
+	margin:20px 30px;
+	border:none;
+	background-color: royalblue;
+	color: white;
+	border-radius: 10px;
+	font-family: Arial Black;
+
+}
+.rsm:hover{
+	background-color: white;
+	color: royalblue;
+	border: 3px solid royalblue;
+	transform: scale(1:1);
+
+}
